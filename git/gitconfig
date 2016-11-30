@@ -1,19 +1,9 @@
 [user]
-	name = Georgii Staroselskii
-	email = gosha371@gmail.com
+	name = Alexey Bulatov
+	email = alexey.bulatov@emlid.com
 [alias]
-    lg = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-    unstage = reset HEAD
-    st = status -sb
-    undo = checkout --
-    subupdate = submodule update --init --recursive
-[merge]
-	tool = vimdiff
-	ff = only
-	conflictstyle = diff3
+	unstage = reset HEAD
+	st = status -sb
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 [core]
-	excludesfile = ~/.gitignore
-[color]
-	ui = auto
-[gpg]
-	program = gpg2
+	editor = vim
